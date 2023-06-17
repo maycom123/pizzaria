@@ -1,0 +1,275 @@
+
+html {
+      font-size: 16px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    * {
+      font-family: "Roboto", sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      outline: none;
+      border: none;
+      text-decoration: none;
+      transition: 0.2s linear;
+    }
+    
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+      background-color: #333;
+    }
+  .logo h1{color:#fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  #veja h2{padding-top: 10px;}
+    
+  
+    .navbar {
+      display: flex;
+      gap: 20px;
+    }
+  
+    .navbar a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+    .navbar a:hover {
+      color: #e67e22;
+    }
+  
+    .carrossel {
+      width: 100%;
+      overflow: hidden;
+    }
+    
+    .carrossel__slides {
+      display: flex;
+      scroll-snap-type: x mandatory;
+      overflow-x: scroll;
+      scroll-behavior: smooth;
+      -webkit-overflow-scrolling: touch;
+      scroll-padding: 20px;
+    }
+    
+    .carrossel__slide {
+      flex: 0 0 100%;
+      scroll-snap-align: start;
+    }
+    
+    .carrossel__slide img {
+      width: 100%;
+      height: auto;
+    }
+    
+    
+h2{text-align: center;
+  font-family: 'Pacifico', cursive;
+font-size: x-large;}
+
+
+h1 {
+  color: #333;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+    
+
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin: 20px 0;
+      color: #333;
+      font-family: 'Helvetica Neue', sans-serif;
+      letter-spacing: 0.5px;
+    }
+ .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+
+    .imagem {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .imagem img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+
+    .icone-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .card {
+      width: 500px;
+      margin: 0 auto;
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 5px;
+      font-family: Arial, sans-serif;
+  }
+  
+ 
+  h1 {
+    text-align: center;
+}
+.carrossel{
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.card {
+  flex: 0 0 300px;
+  margin-right: 20px;
+  border: 1px solid #ccc;
+  scroll-snap-align: start;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-content h3 {
+  margin-top: 0;
+}
+
+.carrossel {
+  scrollbar-width: none;
+  -ms-overflow-style: none; 
+}
+
+
+
+
+
+
+
+
+  .reviews-conteudo  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.review {
+    width: 30%;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.pizza-nome {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.descrição{
+    margin-top: 10px;
+}
+
+.rating {
+    font-size: 18px;
+}
+
+.estrela {
+    color: #ffd700;
+}
+
+.reviewer {
+    font-style: italic;
+    margin-top: 10px;
+}
+    
+    .footer {
+      background-color: #333;    
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    .footer h3 {
+      font-size: 20px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .footer p {color:white;
+      font-size: 16px;
+      line-height: 1.6em;
+      margin-bottom: 20px;
+    }
+
+    .footer-bottom {
+    
+      padding: 10px 0;
+    }
+
+    .footer-bottom p {
+      font-size: 14px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .container {
+        padding: 10px;
+      }
+    
+      .header {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .logo {
+        margin-bottom: 10px;
+        margin-right: 0;
+      }
+    
+      .navbar {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .nav-link {
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid #fff;
+      }
+     
+      .review {
+        width: 100%;
+    }
+    
+      .footer {
+        padding: 10px;
+        text-align: center;
+      }
+    }
+    
